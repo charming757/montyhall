@@ -1,0 +1,15 @@
+Package: montyhall
+Title: Monty Hall Simulator
+Version: 0.0.0.9000
+Authors@R: 
+    person("Chanel", "Harming", , "tharming@asu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Simulates a monty hall game where the ultimate goal is to settle the debate on whether the switch or stay strategy is better. Monty Hall is a gameshow game that involves a player choosing a door out of three doors. Behind two of the doors there is a goat and behind one of the doors there is a car. The player chooses a door then the host opens a door with a goat behind it. The player can then either switch to the door they did not originally choose or stay on the original door. The player wins by having their final pick be the door with the car behind it. 
+Depends: 
+   dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+
